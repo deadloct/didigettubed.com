@@ -6,7 +6,7 @@
 }
 
 body {
-    margin: 3rem;
+    margin: 5rem 3rem;
     background-color: #d3f1f0;
     color: #05304a;
 }
@@ -38,4 +38,11 @@ button:hover {
 
 #result {
     font-size: 5rem;
+}
+
+@media only screen and (max-width: 800px) {
+    #the-decider {
+        width: auto; 
+        max-width: 90vw;
+    }
 }
